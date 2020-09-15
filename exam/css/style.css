@@ -1,0 +1,488 @@
+
+* {
+    padding: 0px;
+    margin: 0px;
+  }
+
+
+body{
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+
+
+h1, h2, h3,h4{
+    font-family: 'Poppins', sans-serif;
+}
+
+iam-first{
+    position: relative;
+    overflow: hidden;
+}
+
+.conone{
+    position: absolute;
+    left: 0;
+    top: 46%;
+    margin-top: -50px;
+    z-index:60;
+    
+}
+.contwo{
+    position: absolute;
+    left: 0;
+    top:352px;
+    margin-top: -50px;
+    z-index:60;
+    
+}
+
+
+
+
+
+
+.layer5{
+    position: absolute;
+    opacity: 1;
+    left:-100%;
+    height: 100%;
+    width: 100%;
+    background-color:rgba(255,255, 255,1);
+    z-index:0 ;
+    transition: 0.3s left;
+  
+}
+.layer5 .mm{
+    padding: 15px 15px;
+    z-index: 10;
+    font-size: 1.2rem;
+    color: #000000;
+}
+
+.controlls .conone:hover .layer5{
+    left: 0;
+
+} 
+.controlls .contwo:hover .layer5{
+    left: 0;
+
+} 
+
+
+.controlls a{
+    display: block;
+    z-index: 99999999;
+}
+
+.and .contr{
+    background-color: transparent;
+    padding: 15px 15px;
+    z-index: 10;
+    font-size: 1.2rem;
+    color: #ffffff;
+    border: 1px solid rgba(255, 255, 255, 0.7);
+    border-left: 0;
+    
+}
+
+
+
+
+
+.carousel-item{
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    
+}
+
+.carousel-item h1{
+    margin:20px 0px 10px;
+    font-size: 100px;
+    font-weight: 700;
+    font-family: 'Poppins', sans-serif;
+    z-index: 30;
+    animation-name: hello;
+    animation-duration:1.2s;
+    animation-iteration-count:1;
+}
+.carousel-item h4{
+    margin:10px 0px ;
+    padding-bottom: 7px;
+    font-size: 22px;
+    font-weight: 500;
+    font-family: 'Poppins', sans-serif;
+    animation-name:hello;
+    animation-duration:1.5s;
+    animation-iteration-count:1;
+
+
+}
+.btn-color{
+    background-color: #00c3da;
+}
+.buttons .btn{
+    padding:14px 30px;
+    margin-left: 10px;
+    color: #fff;
+    font-weight: 700;
+    font-size: 14;
+   
+}
+.buttons{
+    
+    animation-name: hello;
+    animation-duration: 1.8s;
+    animation-iteration-count:1;
+
+}
+.buttons:hover .btn-one{
+    transform: translateY(-2px);
+
+}
+.btn-two:hover{
+    color: #000000;
+    transform: translateY(-2px);
+}
+
+.shad{
+    color: #ffffff;
+    background-color:rgba(40, 40, 40, 0.5);
+    height:100%;
+    width:100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index:20;
+}
+.carousel-control-prev{
+    z-index: 25 !important;
+}
+.carousel-control-next{
+    z-index: 25 !important;
+
+}
+.carousel-indicators{
+    z-index: 25 !important;
+
+
+}
+@keyframes hello{
+    0%{
+        opacity: 0;
+        transform: scale(0);
+    }
+    100%{
+        opacity: 1;
+        transform: scale(1);
+    }
+}
+.who-text{
+    margin:20px 0px;
+
+}
+.who-text p{
+    font-weight:300;
+    font-size:24px;
+    color: #787878;
+}
+.who-text .one{
+    margin-bottom: 0 ;
+    padding-bottom: 0 ;
+    
+}
+.who-text span::before{
+    content: "|";
+    top: 0;
+    left:90%;
+    animation-name: it-me;
+    animation-duration: 7s;
+    animation-iteration-count: infinite;
+    font-weight:400;
+    font-size:20px;
+    color: #00c3da;
+}
+@keyframes it-me{
+    0%{content: "| ";}
+    1%{content: " W| ";}
+    3%{content: " We| ";}
+    5%{content: " Web| ";}
+    7%{content: " Webs| ";}
+    9%{content: " Websi| ";}
+    10%{content: " Websit| ";}
+    11%{content: " Website| ";}
+    13%{content: " Websites| ";}
+
+    15%{content: " Website| ";}
+    17%{content: " Websit| ";}
+    19%{content: " Websi| ";}
+    20%{content: " Webs| ";}
+    21%{content: " Web| ";}
+    23%{content: " We| ";}
+    25%{content: " W| ";}
+    29%{content: "| ";}
+
+
+    30%{content: " | ";}
+    31%{content: " s| ";}
+    35%{content: " so| ";}
+    37%{content: " sof| ";}
+    39%{content: " soft| ";}
+    40%{content: " softw| ";}
+    41%{content: " softwa| ";}
+    43%{content: " softwar| ";}
+    45%{content: " software| ";}
+    47%{content: " softwares| ";}
+
+    50%{content: " software| ";}
+    53%{content: " softwar| ";}
+    55%{content: " softwa| ";}
+    57%{content: " softw| ";}
+    60%{content: " soft| ";}
+    63%{content: " sof| ";}
+    65%{content: " so| ";}
+    67%{content: " s| ";}
+    70%{content: " | ";}
+
+    75%{content: "| ";}
+    77%{content: "a| ";}
+    80%{content: "ap| ";}
+    83%{content: " app| ";}
+    85%{content: " apps| ";}
+
+    87%{content: " app| ";}
+    90%{content: " ap| ";}
+    95%{content: " a| ";}
+    100%{content: " | ";}
+   
+}
+
+
+
+
+
+
+
+
+
+@keyframes move 
+{
+    0%{bottom: 20px;}
+    25%{bottom:35px;}
+    50%{bottom:40px ;}
+    75%{bottom: 45px;}
+    100%{bottom: 50px;}
+}
+
+.layer
+{
+
+    top:50px;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 999;
+    background-color: rgba(0, 195, 218, 0.9);
+    opacity: 0;
+    transition: all 1s;
+  
+    
+}
+.team-item:hover .layer 
+{
+    top:0;
+    opacity: 1;
+}
+
+.team-head h2{
+font-size: 70px;
+color:#1f1f1f;
+line-height: 1.3;
+
+}
+
+.team-head::before{
+    content: 'c';
+    opacity: 0.5;
+    position: absolute;
+    top:-47px;
+    right: 48%;
+    bottom:0;
+    font-weight: 700;
+    font-size:5rem;
+    text-align: center;
+    color: #787878;
+    
+}
+
+.team-head2::before{
+    content: 'W';
+    opacity: 0.5;
+    position: absolute;
+    top:-31px;
+    left:-4px;
+    bottom:0;
+    font-weight: 700;
+    font-size:4rem;
+    text-align: center;
+    color: #787878;
+    
+}
+
+
+
+
+
+
+
+
+.pricing-table {
+    border: 1px solid #f3f3f3;
+    max-width: 400px;
+    padding: 45px 35px;
+    margin: 50px auto 25px;
+    position: relative;
+    width: 100%;
+    background-color: #fff;
+    box-shadow: 0 0 40px rgba(0, 0, 0, 0.05);
+    -webkit-transition: all .3s ease;
+    transition: all .3s ease;
+}
+.info-card 
+{
+    border: 1px solid #f3f3f3;
+    background-color: #fff;
+    box-shadow: 0 0 40px rgba(0, 0, 0, 0.05);
+
+}
+.btn-all{
+background-color: #00c3da;
+}
+.services{
+background-color: #1f1f1f;
+opacity: 0.7;
+}
+
+
+.services-item1 h4{
+
+font-size: 15px !important; 
+
+
+}
+.services-item1 i{
+  
+    font-size: 40px !important;
+}
+
+.pricing{
+    background-color: #f7f7f7;
+}
+.pricing ul {
+    
+        list-style-type: none;
+       
+}
+
+.card-gold{ 
+    transform: scale(1.1);
+    position: relative;
+}
+
+.num-gold {
+    color: #00c3da;
+}
+
+ .btn-gold{
+    border-radius:50px;
+background-color:#00c3da ;
+font-size: 10px;
+
+}
+.team-head3::before{
+    content: 'G';
+    opacity: 0.5;
+    position: absolute;
+    top:-31px;
+    left:-4px;
+    bottom:0;
+    font-weight: 700;
+    font-size:4rem;
+    text-align: center;
+    color: #787878;
+    
+}
+
+.test
+{
+    width: 25%;
+    position: relative;
+    bottom: 30px;
+    z-index: 9999;
+}
+
+
+#work
+{
+ background-color: #f7f7f7;   
+ position: relative; 
+
+    
+}
+
+.customerimg img{
+    
+    position: absolute;
+    top: -45px;
+    right: 55%;
+    padding: 50px 0;
+    width: 120px;
+    border-radius: 50%;
+    margin: -100;
+}
+.card
+{
+    height:100% !important;
+    width: 75%;
+    margin: auto;
+}
+
+
+ .card h4{
+    font-size: 24px !important;
+    font-weight: 800 !important;
+    font-family: 'Poppins', sans-serif;
+
+}
+
+.card .p-one{
+    font-size: 12px;
+    font-family: 'Poppins', sans-serif;
+    color: #787878;
+    font-weight: 600;
+}
+
+.card .p-two{
+    color: #787878;
+    font-size: 18px;
+    font-family: 'Source Sans Pro', sans-serif;
+} 
+.icon-l , .icon-r{
+    font-size: 3rem;
+    color: #787878;
+}
+.customers i{
+    transition: 0.5s transform;
+    overflow:hidden;
+    
+}
+
+.icon-l:hover {
+    color: #00c3da;
+    transform: translatex(-5px);
+}
+ .icon-r:hover {
+    color: #00c3da;
+    transform: translatex(5px);
+}
